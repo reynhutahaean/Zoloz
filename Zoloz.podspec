@@ -1,6 +1,6 @@
  Pod::Spec.new do |spec|
   spec.name         = "Zoloz"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "#{spec.name} framework."
   spec.description  = "Description for #{spec.name} framework."
   spec.homepage     = "https://gitlab46.bni.co.id/maverick-mobile/ios/"
