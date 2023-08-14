@@ -7,7 +7,7 @@
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIdentifier</key>
-    <string>id.bni.maverick.CommonHandling</string>
+    <string>id.bni.maverick.Zoloz</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>

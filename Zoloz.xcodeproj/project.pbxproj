@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09A01415267B2E6FAE766B2C /* Pods_Zoloz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F37E404645B05C7E5D35948 /* Pods_Zoloz.framework */; };
 		0F0BD1A3F878CA89255A9612 /* ZolozPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B117324DAF3273F866E2C6 /* ZolozPresenter.swift */; };
+		24C54C164EDD45F8BAA48120 /* Pods_Zoloz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF01CB031DE977B5C162E0DB /* Pods_Zoloz.framework */; };
 		65BC367FC46FDAFE2907427C /* ZolozViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA74074D978064AA9F54E57B /* ZolozViewController.xib */; };
 		780B05C530AEC6F32F01AE56 /* ZolozConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCCF3727C96411D3011CC4 /* ZolozConfigurator.swift */; };
 		A75134B17D46DEA916BCF06A /* ZolozRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBDA698725DB309BB331C9C /* ZolozRouter.swift */; };
@@ -22,50 +22,58 @@
 
 /* Begin PBXFileReference section */
 		07FCCF3727C96411D3011CC4 /* ZolozConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZolozConfigurator.swift; sourceTree = "<group>"; };
-		16BE1462ACD5FBC5601AEA1C /* Pods-Zoloz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoloz.debug.xcconfig"; path = "Target Support Files/Pods-Zoloz/Pods-Zoloz.debug.xcconfig"; sourceTree = "<group>"; };
 		26B117324DAF3273F866E2C6 /* ZolozPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZolozPresenter.swift; sourceTree = "<group>"; };
 		2922D493DB2BF4982A135EA2 /* Zoloz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Zoloz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A60E2C6C66719BF703E12D8 /* Pods-Zoloz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoloz.release.xcconfig"; path = "Target Support Files/Pods-Zoloz/Pods-Zoloz.release.xcconfig"; sourceTree = "<group>"; };
 		3AE094EDEA66420AD1AD4E63 /* ZolozWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZolozWireframe.swift; sourceTree = "<group>"; };
-		4F37E404645B05C7E5D35948 /* Pods_Zoloz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoloz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		581A4D0A9AFEC342D921E54F /* Pods-Zoloz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoloz.release.xcconfig"; path = "Target Support Files/Pods-Zoloz/Pods-Zoloz.release.xcconfig"; sourceTree = "<group>"; };
 		5B65415DBC5FA1EDC46A65E8 /* Zoloz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zoloz.h; sourceTree = "<group>"; };
 		7BA32541B263110DE266985C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7BFC8BD0157810035A91069F /* ZolozProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZolozProtocols.swift; sourceTree = "<group>"; };
 		8E8671D5D89ACC6CE05EEFED /* Zoloz.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Zoloz.docc; sourceTree = "<group>"; };
 		AA7CE1BCD107E4FE8A04DE34 /* ZolozViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZolozViewController.swift; sourceTree = "<group>"; };
+		BC0B5A5B2B8F277C59120DDE /* Pods-Zoloz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoloz.debug.xcconfig"; path = "Target Support Files/Pods-Zoloz/Pods-Zoloz.debug.xcconfig"; sourceTree = "<group>"; };
+		EF01CB031DE977B5C162E0DB /* Pods_Zoloz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoloz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F279FC796D5229A7CC1904AB /* ZolozInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZolozInteractor.swift; sourceTree = "<group>"; };
 		FA74074D978064AA9F54E57B /* ZolozViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZolozViewController.xib; sourceTree = "<group>"; };
 		FBBDA698725DB309BB331C9C /* ZolozRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZolozRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		032D2DD1B484E1493D12626A /* Frameworks */ = {
+		162A9DFA12D4B255D59472CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A01415267B2E6FAE766B2C /* Pods_Zoloz.framework in Frameworks */,
+				24C54C164EDD45F8BAA48120 /* Pods_Zoloz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44924A8D9DE29733F625FDBA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				16BE1462ACD5FBC5601AEA1C /* Pods-Zoloz.debug.xcconfig */,
-				3A60E2C6C66719BF703E12D8 /* Pods-Zoloz.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		4D3D5D04F8221500D424E744 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				2922D493DB2BF4982A135EA2 /* Zoloz.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5270ADD2142BBF017CFC0495 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B5A5B2B8F277C59120DDE /* Pods-Zoloz.debug.xcconfig */,
+				581A4D0A9AFEC342D921E54F /* Pods-Zoloz.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D493366380A32CEF678B50A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF01CB031DE977B5C162E0DB /* Pods_Zoloz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		93353713FFD80E2C0C72EFE5 /* Scene */ = {
@@ -102,14 +110,6 @@
 			path = Zoloz;
 			sourceTree = "<group>";
 		};
-		DE6F528183203873D1D98EE2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4F37E404645B05C7E5D35948 /* Pods_Zoloz.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E7056C56CCCD4B76C6407DB9 /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +123,8 @@
 			children = (
 				A8415DD3F4AAD059AB5D59A1 /* Zoloz */,
 				4D3D5D04F8221500D424E744 /* Products */,
-				44924A8D9DE29733F625FDBA /* Pods */,
-				DE6F528183203873D1D98EE2 /* Frameworks */,
+				5270ADD2142BBF017CFC0495 /* Pods */,
+				7D493366380A32CEF678B50A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,12 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 995F15468DA2DC27BA0F8ED9 /* Build configuration list for PBXNativeTarget "Zoloz" */;
 			buildPhases = (
-				12614DA02055A54A4B8181CC /* [CP] Check Pods Manifest.lock */,
+				9073F7FC4C9A51C3141FFABF /* [CP] Check Pods Manifest.lock */,
 				E46DD499EDCCAEC9C133BA77 /* Headers */,
 				B3815AB377757BD94A718EFC /* Sources */,
 				6FEAC16C45280882A152BC0B /* Resources */,
-				032D2DD1B484E1493D12626A /* Frameworks */,
-				442E2DC291B89C39D84934DD /* [CP] Copy Pods Resources */,
+				162A9DFA12D4B255D59472CF /* Frameworks */,
+				50F7710B5EE72D61E829F92F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,7 +202,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12614DA02055A54A4B8181CC /* [CP] Check Pods Manifest.lock */ = {
+		50F7710B5EE72D61E829F92F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zoloz/Pods-Zoloz-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zoloz/Pods-Zoloz-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zoloz/Pods-Zoloz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9073F7FC4C9A51C3141FFABF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,23 +239,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		442E2DC291B89C39D84934DD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Zoloz/Pods-Zoloz-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Zoloz/Pods-Zoloz-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zoloz/Pods-Zoloz-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -264,7 +264,7 @@
 /* Begin XCBuildConfiguration section */
 		0F3302A67FD4709F06548885 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16BE1462ACD5FBC5601AEA1C /* Pods-Zoloz.debug.xcconfig */;
+			baseConfigurationReference = BC0B5A5B2B8F277C59120DDE /* Pods-Zoloz.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -287,7 +287,7 @@
 		};
 		5E2999E38DDB7911D7659C9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A60E2C6C66719BF703E12D8 /* Pods-Zoloz.release.xcconfig */;
+			baseConfigurationReference = 581A4D0A9AFEC342D921E54F /* Pods-Zoloz.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
