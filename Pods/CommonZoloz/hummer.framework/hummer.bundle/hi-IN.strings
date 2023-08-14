@@ -1,0 +1,9 @@
+/* 
+  en-PH.string.strings
+  Created by yukun.tyk on 2018/9/4.
+*/
+
+"network_error_title"="कोई इंटरनेट कनेक्शन नहीं है";
+"network_error_message"="कृपया अपने इंटरनेट कनेक्शन की जांच करें और दोबारा कोशिश करें";
+"network_error_retry"="दोबारा कोशिश करें";
+"network_error_exit"="बाहर निकलें";

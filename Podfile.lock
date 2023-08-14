@@ -1,0 +1,31 @@
+PODS:
+  - CommonZoloz (0.0.11):
+    - CommonZoloz/Cherry (= 0.0.11)
+    - CommonZoloz/Core (= 0.0.11)
+    - CommonZoloz/Dependency (= 0.0.11)
+    - CommonZoloz/ZolozDocScan (= 0.0.11)
+  - CommonZoloz/Cherry (0.0.11)
+  - CommonZoloz/Core (0.0.11):
+    - CommonZoloz/Dependency
+  - CommonZoloz/Dependency (0.0.11)
+  - CommonZoloz/ZolozDocScan (0.0.11)
+
+DEPENDENCIES:
+  - CommonZoloz (from `https://gitlab46.bni.co.id/maverick-mobile/ios/features/common-zoloz.git`, branch `main`)
+
+EXTERNAL SOURCES:
+  CommonZoloz:
+    :branch: main
+    :git: https://gitlab46.bni.co.id/maverick-mobile/ios/features/common-zoloz.git
+
+CHECKOUT OPTIONS:
+  CommonZoloz:
+    :commit: 28a6db655f0a29b4db00d91adb3007c9a10b0b40
+    :git: https://gitlab46.bni.co.id/maverick-mobile/ios/features/common-zoloz.git
+
+SPEC CHECKSUMS:
+  CommonZoloz: cd2b75f35306400b59a4768456055408805c59d3
+
+PODFILE CHECKSUM: 196c276b8c16af457ab6de59c468208049bfdb63
+
+COCOAPODS: 1.12.1

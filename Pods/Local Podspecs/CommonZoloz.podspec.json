@@ -1,0 +1,109 @@
+{
+  "name": "CommonZoloz",
+  "version": "0.0.11",
+  "summary": "zolozkit",
+  "description": "* Detail about this framework.",
+  "homepage": "https://github.com/zoloz-pte-ltd/zoloz-demo-ios",
+  "license": "MIT",
+  "authors": {
+    "zolozAdmin": "zoloz-github@antgroup.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "git": "https://gitlab46.bni.co.id/maverick-mobile/ios/features/common-zoloz.git",
+    "tag": "0.0.11"
+  },
+  "frameworks": [
+    "AVFoundation",
+    "OpenGLES",
+    "CoreTelephony",
+    "CoreMotion",
+    "CoreLocation",
+    "SystemConfiguration",
+    "Accelerate",
+    "CoreMedia",
+    "CoreServices",
+    "CoreGraphics",
+    "QuartzCore",
+    "CoreVideo",
+    "CoreImage",
+    "WebKit"
+  ],
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "default_subspecs": [
+    "Cherry",
+    "ZolozDocScan",
+    "Core",
+    "Dependency"
+  ],
+  "requires_arc": true,
+  "preserve_paths": "*.framework/**/*",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "vendored_frameworks": [
+        "CommonZoloz.framework",
+        "hummer.framework",
+        "ZolozIdentityManager.framework",
+        "BioAuthEngine.framework",
+        "BioAuthAPI.framework",
+        "ZLZProtoBufferLite.framework",
+        "ToygerService.framework",
+        "ToygerServiceAlgo.framework"
+      ],
+      "resources": [
+        "CommonZoloz.framework/ZolozKit.bundle",
+        "BioAuthEngine.framework/BioAuthEngine.bundle",
+        "ToygerServiceAlgo.framework/ToygerService.bundle"
+      ],
+      "dependencies": {
+        "CommonZoloz/Dependency": [
+
+        ]
+      }
+    },
+    {
+      "name": "Garfield",
+      "vendored_frameworks": "APBToygerGarfield.framework",
+      "dependencies": {
+        "lottie-ios": [
+
+        ]
+      }
+    },
+    {
+      "name": "Cherry",
+      "vendored_frameworks": "APBToygerFacade.framework"
+    },
+    {
+      "name": "ZolozDocScan",
+      "vendored_frameworks": "ZolozDocScan.framework"
+    },
+    {
+      "name": "ZolozDoc",
+      "vendored_frameworks": "ZolozDoc.framework"
+    },
+    {
+      "name": "Dependency",
+      "vendored_frameworks": [
+        "ZolozSensorServices.framework",
+        "zrpc.framework",
+        "WebContainerLite.framework",
+        "dfplite.framework",
+        "APLogLite.framework"
+      ],
+      "resources": "WebContainerLite.framework/WebContainerLite.bundle"
+    }
+  ]
+}

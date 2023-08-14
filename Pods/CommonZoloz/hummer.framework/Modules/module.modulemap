@@ -1,0 +1,6 @@
+framework module hummer {
+  umbrella header "hummer.h"
+
+  export *
+  module * { export * }
+}

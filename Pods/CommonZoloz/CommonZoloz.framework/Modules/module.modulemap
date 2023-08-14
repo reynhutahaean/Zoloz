@@ -1,0 +1,6 @@
+framework module CommonZoloz {
+  umbrella header "CommonZoloz.h"
+
+  export *
+  module * { export * }
+}

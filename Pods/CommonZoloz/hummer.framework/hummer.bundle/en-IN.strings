@@ -1,0 +1,9 @@
+/* 
+  en-PH.string.strings
+  Created by yukun.tyk on 2018/9/4.
+*/
+
+"network_error_title"="No Internet Connection";
+"network_error_message"="Please check your internet connection and try again";
+"network_error_retry"="Retry";
+"network_error_exit"="Exit";

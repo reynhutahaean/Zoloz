@@ -1,0 +1,6 @@
+framework module WebContainerLite {
+  umbrella header "ZLZWebService.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D1DDB5DDBA9D44D1EA3A4D151DA1DC3C /* CommonZoloz */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 33E64D8864FDC11166E6EA74D20074B3 /* Build configuration list for PBXAggregateTarget "CommonZoloz" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = CommonZoloz;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03662A3CDD7B60E81A5D99709B967C97 /* Pods-Zoloz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98023791EAF020CAAD0AC71457CBA63E /* Pods-Zoloz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61C74A5563F7C27F006ED4F7C4511EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C131CCF13329E19E81D43001BF461117 /* Pods-Zoloz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DF6393472C051F70EB21F77AECEA1 /* Pods-Zoloz-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D74B0D74E86514497BF0593E84FB7D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1DDB5DDBA9D44D1EA3A4D151DA1DC3C;
+			remoteInfo = CommonZoloz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101943BEDC19B46311DD3759DA20EDAF /* APBToygerFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APBToygerFacade.framework; sourceTree = "<group>"; };
+		151EAA4DE1174BFE49757BF6C72DEC8B /* Pods-Zoloz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zoloz.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4DF6393472C051F70EB21F77AECEA1 /* Pods-Zoloz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zoloz-dummy.m"; sourceTree = "<group>"; };
+		24CB9F1EF3A6436B534FE7E23BF772B7 /* Pods-Zoloz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zoloz.modulemap"; sourceTree = "<group>"; };
+		3147C88D0455472EA39B97E9040B5F16 /* Pods-Zoloz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zoloz-Info.plist"; sourceTree = "<group>"; };
+		40D037257BA5259CBF4C4F41E7000482 /* hummer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = hummer.framework; sourceTree = "<group>"; };
+		42CD3E70707974209C00CB076909778B /* Pods-Zoloz */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zoloz"; path = Pods_Zoloz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB53E34B1207ADEFF73B10BBB5D10F7 /* BioAuthEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthEngine.framework; sourceTree = "<group>"; };
+		52A9D5BF99181AC029EE48BE0B3483B1 /* ZolozIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozIdentityManager.framework; sourceTree = "<group>"; };
+		589F28629031FEEA25C2DE4A38360EFC /* BioAuthAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthAPI.framework; sourceTree = "<group>"; };
+		622B2512629C69F7EACA68655E5E73DA /* WebContainerLite.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WebContainerLite.bundle; path = WebContainerLite.framework/WebContainerLite.bundle; sourceTree = "<group>"; };
+		6F420FD670ECA6CBEAA9D5E93D9E54AD /* ZolozDocScan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozDocScan.framework; sourceTree = "<group>"; };
+		6F554BD53C0293690A9D7E69522B894E /* ToygerServiceAlgo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerServiceAlgo.framework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8141B5C8B338D829F1D9AB1B7634F7B7 /* ZolozSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozSensorServices.framework; sourceTree = "<group>"; };
+		83028352A4CA7F3FE63ADE142986A8E4 /* zrpc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = zrpc.framework; sourceTree = "<group>"; };
+		89864404972E0773B1A640F691F92D8E /* Pods-Zoloz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zoloz-resources.sh"; sourceTree = "<group>"; };
+		90562E0FED32D4E7410FD63A6CBA6EC1 /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerService.framework; sourceTree = "<group>"; };
+		9141B0B7F300F93D01007B4357C43DA9 /* ToygerService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ToygerService.bundle; path = ToygerServiceAlgo.framework/ToygerService.bundle; sourceTree = "<group>"; };
+		95D26F1137D723BF75E817BD12A25254 /* WebContainerLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebContainerLite.framework; sourceTree = "<group>"; };
+		98023791EAF020CAAD0AC71457CBA63E /* Pods-Zoloz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zoloz-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAC8E22816B3A99FB386EB4B0500F77 /* ZLZProtoBufferLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZLZProtoBufferLite.framework; sourceTree = "<group>"; };
+		A70A1BB03DB4559A8415D73ECB1D23C1 /* dfplite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = dfplite.framework; sourceTree = "<group>"; };
+		ADCD3CB117F84BDC9C2DE293BB929449 /* Pods-Zoloz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zoloz-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADF9DF04CD0B54ABFA2E9E1908A2DA83 /* CommonZoloz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonZoloz.framework; sourceTree = "<group>"; };
+		BA65456EE73610046E548E1B78CEDA8D /* BioAuthEngine.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BioAuthEngine.bundle; path = BioAuthEngine.framework/BioAuthEngine.bundle; sourceTree = "<group>"; };
+		E0C65CD25D760F69009189104AEF5F32 /* ZolozKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZolozKit.bundle; path = CommonZoloz.framework/ZolozKit.bundle; sourceTree = "<group>"; };
+		E6B7E393EFACD91FD338B28CB9CD7A8F /* APLogLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APLogLite.framework; sourceTree = "<group>"; };
+		E6CE84A12379D5E8E084FF9E67E328C5 /* CommonZoloz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonZoloz.release.xcconfig; sourceTree = "<group>"; };
+		EAF6CBAC4D740F95FC99894A4F22C7F8 /* CommonZoloz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonZoloz.debug.xcconfig; sourceTree = "<group>"; };
+		EFF56EC00D6A0CFF91BB9B7C48CD9ECA /* Pods-Zoloz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zoloz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7580F7293A5937E37DCE8C814F59B91 /* Pods-Zoloz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zoloz.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E3B73EB213ECE9526429C7760AA0F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61C74A5563F7C27F006ED4F7C4511EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC70CF896409D4E9EC431FC90F472C2 /* ZolozDocScan */ = {
+			isa = PBXGroup;
+			children = (
+				5D457D419E99694D763B61B023230D39 /* Frameworks */,
+			);
+			name = ZolozDocScan;
+			sourceTree = "<group>";
+		};
+		2630524B66E290BBC3CD007440038591 /* Pods-Zoloz */ = {
+			isa = PBXGroup;
+			children = (
+				24CB9F1EF3A6436B534FE7E23BF772B7 /* Pods-Zoloz.modulemap */,
+				EFF56EC00D6A0CFF91BB9B7C48CD9ECA /* Pods-Zoloz-acknowledgements.markdown */,
+				ADCD3CB117F84BDC9C2DE293BB929449 /* Pods-Zoloz-acknowledgements.plist */,
+				1D4DF6393472C051F70EB21F77AECEA1 /* Pods-Zoloz-dummy.m */,
+				3147C88D0455472EA39B97E9040B5F16 /* Pods-Zoloz-Info.plist */,
+				89864404972E0773B1A640F691F92D8E /* Pods-Zoloz-resources.sh */,
+				98023791EAF020CAAD0AC71457CBA63E /* Pods-Zoloz-umbrella.h */,
+				151EAA4DE1174BFE49757BF6C72DEC8B /* Pods-Zoloz.debug.xcconfig */,
+				F7580F7293A5937E37DCE8C814F59B91 /* Pods-Zoloz.release.xcconfig */,
+			);
+			name = "Pods-Zoloz";
+			path = "Target Support Files/Pods-Zoloz";
+			sourceTree = "<group>";
+		};
+		3A41D4705039121997A25909AED67A0A /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7D460E117D22E574B00AADF87CF73 /* Frameworks */,
+				8876FEB9BB519597D788D1648D1ED651 /* Resources */,
+			);
+			name = Dependency;
+			sourceTree = "<group>";
+		};
+		40E6433B619CC42E40FF4C8372CEB45B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				591EEE31B97CAAF39FAEEB638ED4CCFB /* Frameworks */,
+				9C9E7884A6FD2A5D7871F9AA0D1215F6 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		591EEE31B97CAAF39FAEEB638ED4CCFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				589F28629031FEEA25C2DE4A38360EFC /* BioAuthAPI.framework */,
+				4CB53E34B1207ADEFF73B10BBB5D10F7 /* BioAuthEngine.framework */,
+				ADF9DF04CD0B54ABFA2E9E1908A2DA83 /* CommonZoloz.framework */,
+				40D037257BA5259CBF4C4F41E7000482 /* hummer.framework */,
+				90562E0FED32D4E7410FD63A6CBA6EC1 /* ToygerService.framework */,
+				6F554BD53C0293690A9D7E69522B894E /* ToygerServiceAlgo.framework */,
+				9DAC8E22816B3A99FB386EB4B0500F77 /* ZLZProtoBufferLite.framework */,
+				52A9D5BF99181AC029EE48BE0B3483B1 /* ZolozIdentityManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D457D419E99694D763B61B023230D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F420FD670ECA6CBEAA9D5E93D9E54AD /* ZolozDocScan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B3BE53EC7AD6B883437E1FC6C7F94B4 /* Cherry */ = {
+			isa = PBXGroup;
+			children = (
+				D9D20BF306E2B5D564D2CAC3008CB473 /* Frameworks */,
+			);
+			name = Cherry;
+			sourceTree = "<group>";
+		};
+		8876FEB9BB519597D788D1648D1ED651 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				622B2512629C69F7EACA68655E5E73DA /* WebContainerLite.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9C9E7884A6FD2A5D7871F9AA0D1215F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA65456EE73610046E548E1B78CEDA8D /* BioAuthEngine.bundle */,
+				9141B0B7F300F93D01007B4357C43DA9 /* ToygerService.bundle */,
+				E0C65CD25D760F69009189104AEF5F32 /* ZolozKit.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A17D229F6D252FA07D9783D370833697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCB9578E66F33DCE536187A966D18234 /* CommonZoloz */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCB9578E66F33DCE536187A966D18234 /* CommonZoloz */ = {
+			isa = PBXGroup;
+			children = (
+				6B3BE53EC7AD6B883437E1FC6C7F94B4 /* Cherry */,
+				40E6433B619CC42E40FF4C8372CEB45B /* Core */,
+				3A41D4705039121997A25909AED67A0A /* Dependency */,
+				D027E921F012D6012A7F59A857DFB434 /* Support Files */,
+				0BC70CF896409D4E9EC431FC90F472C2 /* ZolozDocScan */,
+			);
+			name = CommonZoloz;
+			path = CommonZoloz;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A17D229F6D252FA07D9783D370833697 /* Pods */,
+				F3957588FB0729E5E88E7C7CC218B882 /* Products */,
+				DF73CB9574FC32B87C2D85DAF958CC39 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D027E921F012D6012A7F59A857DFB434 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF6CBAC4D740F95FC99894A4F22C7F8 /* CommonZoloz.debug.xcconfig */,
+				E6CE84A12379D5E8E084FF9E67E328C5 /* CommonZoloz.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CommonZoloz";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D20BF306E2B5D564D2CAC3008CB473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101943BEDC19B46311DD3759DA20EDAF /* APBToygerFacade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF73CB9574FC32B87C2D85DAF958CC39 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2630524B66E290BBC3CD007440038591 /* Pods-Zoloz */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F0F7D460E117D22E574B00AADF87CF73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7E393EFACD91FD338B28CB9CD7A8F /* APLogLite.framework */,
+				A70A1BB03DB4559A8415D73ECB1D23C1 /* dfplite.framework */,
+				95D26F1137D723BF75E817BD12A25254 /* WebContainerLite.framework */,
+				8141B5C8B338D829F1D9AB1B7634F7B7 /* ZolozSensorServices.framework */,
+				83028352A4CA7F3FE63ADE142986A8E4 /* zrpc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3957588FB0729E5E88E7C7CC218B882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42CD3E70707974209C00CB076909778B /* Pods-Zoloz */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BD06CADEECC1544E66BE182D311CBCC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03662A3CDD7B60E81A5D99709B967C97 /* Pods-Zoloz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DE18A0D015C396C7688AFBF976A1E1BA /* Pods-Zoloz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E41D815C1FE5DC890DD47D3727587A /* Build configuration list for PBXNativeTarget "Pods-Zoloz" */;
+			buildPhases = (
+				BD06CADEECC1544E66BE182D311CBCC9 /* Headers */,
+				785A56A4B531EB08E0C109CD54D40540 /* Sources */,
+				28E3B73EB213ECE9526429C7760AA0F2 /* Frameworks */,
+				54C226A51F9389F42BA01346B13376CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0870742A1A89305333B4E87F0BA08E96 /* PBXTargetDependency */,
+			);
+			name = "Pods-Zoloz";
+			productName = Pods_Zoloz;
+			productReference = 42CD3E70707974209C00CB076909778B /* Pods-Zoloz */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F3957588FB0729E5E88E7C7CC218B882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1DDB5DDBA9D44D1EA3A4D151DA1DC3C /* CommonZoloz */,
+				DE18A0D015C396C7688AFBF976A1E1BA /* Pods-Zoloz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C226A51F9389F42BA01346B13376CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		785A56A4B531EB08E0C109CD54D40540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131CCF13329E19E81D43001BF461117 /* Pods-Zoloz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0870742A1A89305333B4E87F0BA08E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonZoloz;
+			target = D1DDB5DDBA9D44D1EA3A4D151DA1DC3C /* CommonZoloz */;
+			targetProxy = D74B0D74E86514497BF0593E84FB7D2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A8512C6147DDBD51D63A9FA38B628D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF6CBAC4D740F95FC99894A4F22C7F8 /* CommonZoloz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5C72C1E37F4FD11C6335A4E8892368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6CE84A12379D5E8E084FF9E67E328C5 /* CommonZoloz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A24AD3200AA74F8FBB8B9C6C175F73D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7580F7293A5937E37DCE8C814F59B91 /* Pods-Zoloz.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zoloz/Pods-Zoloz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zoloz/Pods-Zoloz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDD098AD0EDDBEC7BDF4333D0BCDBE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151EAA4DE1174BFE49757BF6C72DEC8B /* Pods-Zoloz.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zoloz/Pods-Zoloz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zoloz/Pods-Zoloz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E41D815C1FE5DC890DD47D3727587A /* Build configuration list for PBXNativeTarget "Pods-Zoloz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD098AD0EDDBEC7BDF4333D0BCDBE77 /* Debug */,
+				A24AD3200AA74F8FBB8B9C6C175F73D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E64D8864FDC11166E6EA74D20074B3 /* Build configuration list for PBXAggregateTarget "CommonZoloz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8512C6147DDBD51D63A9FA38B628D4 /* Debug */,
+				4A5C72C1E37F4FD11C6335A4E8892368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

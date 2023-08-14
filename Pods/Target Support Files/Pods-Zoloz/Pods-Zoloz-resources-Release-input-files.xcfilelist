@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Zoloz/Pods-Zoloz-resources.sh
+${PODS_ROOT}/CommonZoloz/CommonZoloz.framework/ZolozKit.bundle
+${PODS_ROOT}/CommonZoloz/BioAuthEngine.framework/BioAuthEngine.bundle
+${PODS_ROOT}/CommonZoloz/ToygerServiceAlgo.framework/ToygerService.bundle
+${PODS_ROOT}/CommonZoloz/WebContainerLite.framework/WebContainerLite.bundle
