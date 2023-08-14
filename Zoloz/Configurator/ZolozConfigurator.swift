@@ -12,10 +12,10 @@ public class ZolozConfigurator {
     public static let shared = ZolozConfigurator()
     public weak var delegate: ZolozWireframe?
     
-    public func createModule() -> UIViewController {
+    public func createModule(clientCfg: String) -> UIViewController {
         let view: UIViewController & ZolozPresenterToView = ZolozViewController()
         let interactor: ZolozPresenterToInteractor = ZolozInteractor()
-        let presenter: ZolozInteractorToPresenter & ZolozViewToPresenter = ZolozPresenter()
+        let presenter: ZolozInteractorToPresenter & ZolozViewToPresenter = ZolozPresenter(clientCfg: clientCfg)
         let router: ZolozPresenterToRouter = ZolozRouter()
         
         view.presenter = presenter
