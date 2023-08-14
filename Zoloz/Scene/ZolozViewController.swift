@@ -16,6 +16,10 @@ class ZolozViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func didTappedButton(_ sender: Any) {
+        presenter?.didTappedButton()
+    }
 }
 
 extension ZolozViewController: ZolozPresenterToView {
