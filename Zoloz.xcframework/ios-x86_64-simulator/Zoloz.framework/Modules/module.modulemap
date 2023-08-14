@@ -1,0 +1,11 @@
+framework module Zoloz {
+  umbrella header "Zoloz.h"
+
+  export *
+  module * { export * }
+}
+
+module Zoloz.Swift {
+  header "Zoloz-Swift.h"
+  requires objc
+}

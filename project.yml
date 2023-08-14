@@ -1,0 +1,32 @@
+name: Zoloz
+options:
+  groupSortPosition: top
+  deploymentTarget:
+      iOS: "11.0"
+# settings
+settings:
+  PRODUCT_BUNDLE_IDENTIFIER: id.bni.maverick.Zoloz
+  BUILD_LIBRARY_FOR_DISTRIBUTION: YES
+  RUN_DOCUMENTATION_COMPILER: YES
+  SKIP_INSTALL: YES
+  ENABLE_BITCODE: NO
+targets:
+  Zoloz:
+    type: framework
+    platform: iOS
+    sources:
+      - Zoloz
+      # scripts
+schemes:
+  Zoloz:
+    build:
+      targets:
+        Zoloz: all
+    run:
+      config: Debug
+    profile:
+      config: Debug
+    anlyze:
+      config: Debug
+    archive:
+      config: Debug
