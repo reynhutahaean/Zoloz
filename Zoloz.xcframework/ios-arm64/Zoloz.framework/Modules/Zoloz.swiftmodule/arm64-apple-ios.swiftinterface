@@ -12,7 +12,7 @@ import _StringProcessing
 @_hasMissingDesignatedInitializers public class ZolozConfigurator {
   public static let shared: Zoloz.ZolozConfigurator
   weak public var delegate: (any Zoloz.ZolozWireframe)?
-  public func createModule() -> UIKit.UIViewController
+  public func createModule(clientCfg: Swift.String) -> UIKit.UIViewController
   @objc deinit
 }
 public protocol ZolozWireframe : AnyObject {

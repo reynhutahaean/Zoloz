@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/Zoloz.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9mJ5IHYp81VMgsrCIweY90p1Nds=
+		iO1gMW7onGbctQ2pSjTX9L20quQ=
 		</data>
 		<key>Modules/Zoloz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gRv5+raSNDKcW4vmF1LXM7UMHEU=
+		X05hxyUqHRktB+uogTfB13nnSbI=
 		</data>
 		<key>Modules/Zoloz.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/Zoloz.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gRv5+raSNDKcW4vmF1LXM7UMHEU=
+		X05hxyUqHRktB+uogTfB13nnSbI=
 		</data>
 		<key>Modules/Zoloz.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sFn9WGC/vTVobZ1un6wG/j6DsMQ=
+		LIp8K6aIIsTgtrvjaayln95xhSE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -179,14 +179,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HbaHCBvYnm2jt//93wf1Y2T6dVbjVH9xeYK7TzUvGDk=
+			zKIxgDuc9vslnul4CMqDnhyImWU+ZPpYelB+3BWdnII=
 			</data>
 		</dict>
 		<key>Modules/Zoloz.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDZU2BqoOxn+GJlw4ceQXEAN6o0kZ943WHgjTJFgvMg=
+			2sjTcZ8DWpWlxMLmk7O9FlSTaNRGWEt84ceaKbX/4fQ=
 			</data>
 		</dict>
 		<key>Modules/Zoloz.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -200,14 +200,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDZU2BqoOxn+GJlw4ceQXEAN6o0kZ943WHgjTJFgvMg=
+			2sjTcZ8DWpWlxMLmk7O9FlSTaNRGWEt84ceaKbX/4fQ=
 			</data>
 		</dict>
 		<key>Modules/Zoloz.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dz656JlTLC1kUG9X6sraAzY7i/thoU6qbOgTtzvWlWI=
+			nm8tobhey3aNyFYPaH/hoLUu7NzhSNp5gdNH197ZgKw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
