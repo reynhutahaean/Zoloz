@@ -17,7 +17,7 @@ class ZolozPresenter {
 extension ZolozPresenter: ZolozViewToPresenter {
     func didTappedButton() {
         print("meta: \(ZLZFacade.getMetaInfo())")
-//        startZoloz()
+        startZoloz()
     }
     
     func startZoloz() {
